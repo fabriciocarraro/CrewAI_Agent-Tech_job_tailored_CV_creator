@@ -26,7 +26,8 @@ from google.colab import userdata
 
 os.environ["OPENAI_API_KEY"] = userdata.get('OPENAI_API_KEY')
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o-mini'
-os.environ["SERPER_API_KEY"] = userdata.get('OPENAI_API_KEY')```
+os.environ["SERPER_API_KEY"] = userdata.get('OPENAI_API_KEY')
+```
 
 ## Notes
 - The agents are equipped with a set of tools, including web scraping, file reading, and semantic search, to effectively perform their tasks.
