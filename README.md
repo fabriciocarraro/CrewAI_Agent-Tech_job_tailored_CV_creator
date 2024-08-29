@@ -21,7 +21,8 @@ The assistant operates through a set of AI agents, each with a specific role:
 ## Setting up the API Keys
 To use this assistant, you'll need to provide your OpenAI API key and Serper API key. These can be set up as follows:
 
-```import os
+```
+import os
 from google.colab import userdata
 
 os.environ["OPENAI_API_KEY"] = userdata.get('OPENAI_API_KEY')
